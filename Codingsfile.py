@@ -1,12 +1,12 @@
 # Here are my variables for this program.
 
-first_name = "Brian"
-birth_year = 2006
-current_year = 2025
-favorite_hobby = "YouTubing"
-current_age = int(input("Enter your age: "))
+first_name = input("Enter your preferred name")
+birth_year = int(imput("Enter your birth year:"))
+current_year = int(imput("Enter the current year:"))
+favorite_hobby = imput("Enter your favorite hobby:")
 
 # Now here's a print test using my variables.
 
-print(f"Hi and welcome back {first_name}! You seem to have not changed. Your favorite hobby is still {favorite_hobby}")
+print(f"Hello and welcome to the program, {first_name}!")
 
+print()
