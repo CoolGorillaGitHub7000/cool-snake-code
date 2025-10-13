@@ -9,4 +9,4 @@ favorite_hobby = imput("Enter your favorite hobby:")
 
 print(f"Hello and welcome to the program, {first_name}!")
 
-print()
+print(f"Wow, you like to do {favorite_hobby}? That's neat!")
