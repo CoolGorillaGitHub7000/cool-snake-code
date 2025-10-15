@@ -5,9 +5,9 @@ print("Welcome to the Debugging Lab!")
 
 name = input("Enter your name: ")
 print("Hello " + name + "!" + " Let's calculate your test scores.")
-
+# 88 was not an integer. It was in quotes.
 scores = [85, 90, 78, 88, 92]
-
+# Colon was missing from score
 total = 0
  for total in scores:
     total = total + score
