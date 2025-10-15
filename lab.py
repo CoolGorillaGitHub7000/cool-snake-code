@@ -9,7 +9,7 @@ print("Hello " + name + "!" + " Let's calculate your test scores.")
 scores = [85, 90, 78, 88, 92]
 # Colon was missing from score
 total = 0
- for score in scores:
+for score in scores:
     total = total + score
 
 average = total / len(scores)
@@ -20,4 +20,4 @@ for s in scores:
     if s > highest:
         highest = s
 
-print("Your highest score was:," highest)
+print("Your highest score was:," (highest))
