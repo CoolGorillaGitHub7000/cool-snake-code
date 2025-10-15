@@ -9,11 +9,11 @@ print("Hello " + name + "!" + " Let's calculate your test scores.")
 scores = [85, 90, 78, 88, 92]
 
 total = 0
- for total in scores
+ for total in scores:
     total = total + score
 
 average = total / len(scores)
-print("Your average score is:" average)
+print("Your average score is:" {average})
 
 highest = 0
 for s in scores:
