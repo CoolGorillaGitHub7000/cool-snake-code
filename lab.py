@@ -11,7 +11,7 @@ scores = [85, 90, 78, 88, 92]
 total = 0
 for score in scores:
     total = total + score
-
+# Commas needed to be outside the quotation marks. They weren't originally.
 average = total / len(scores)
 print("Your average score is:", (average))
 
