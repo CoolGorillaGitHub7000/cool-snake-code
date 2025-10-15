@@ -13,7 +13,7 @@ total = 0
     total = total + score
 
 average = total / len(scores)
-print("Your average score is:" {average})
+print("Your average score is:" (average))
 
 highest = 0
 for s in scores:
