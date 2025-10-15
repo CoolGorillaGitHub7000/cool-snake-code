@@ -9,7 +9,7 @@ print("Hello " + name + "!" + " Let's calculate your test scores.")
 scores = [85, 90, 78, 88, 92]
 
 total = 0
-for score in scores
+ for total in scores
     total = total + score
 
 average = total / len(scores)
