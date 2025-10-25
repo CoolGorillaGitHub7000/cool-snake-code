@@ -10,6 +10,7 @@ print(opponent, "vs", end=' ')
 choice = randint(0,2)
 # print(choice)
 # The possible scenarios of computer choosing a random number
+
 if(choice == 0):
     computer = "0"
 
