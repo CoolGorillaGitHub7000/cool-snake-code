@@ -5,3 +5,9 @@ from random import randint
 opponent = input("rock (0), paper (_), or scissors (>8)?")
 
 print(opponent, "vs")
+# The computer opponent generates a random number from 0 to 2 as a representation of RPS
+# 0 = rock, 1 = paper, 2 = scissors
+choice = randint(0,2)
+print(choice)
+# The possible scenarios of computer choosing a random number
+if(choice == 1):
