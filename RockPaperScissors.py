@@ -14,12 +14,15 @@ choice = randint(0,2)
 
 if(choice == 0):
     computer = "r"
+    print('r')
 
 elif(choice == 1):
     computer = "p"
+    print('p')
 
 elif(choice == 2):
     computer = "s"
+    print('s')
 
     if(opponent == computer):
         print("It's a draw!")
