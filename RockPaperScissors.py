@@ -14,16 +14,14 @@ choice = randint(0,2)
 
 if(choice == 0):
     computer = "r"
-    print('r')
+    print(computer)
 
 elif(choice == 1):
     computer = "p"
-    print('p')
+    print(computer)
 
-elif(choice == 2):
+else:
     computer = "s"
-    print('s')
-
     print(computer)
 
     if(opponent == computer):
