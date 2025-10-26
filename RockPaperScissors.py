@@ -21,8 +21,6 @@ elif(choice == 1):
 elif(choice == 2):
     computer = "s"
 
-    print(computer)
-
     if(opponent == computer):
         print("It's a draw!")
 
