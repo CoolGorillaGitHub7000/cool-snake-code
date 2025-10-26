@@ -5,6 +5,7 @@ from random import randint
 opponent = input("rock (0), paper (-), or scissors (8<)?")
 # There's an added end because this tells Python to end this line with a space instead of a new line.
 print(opponent, "vs", end=" ")
+
 # The computer opponent generates a random number from 0 to 2 as a representation of RPS
 # 0 = rock, 1 = paper, 2 = scissors
 choice = randint(0,2)
