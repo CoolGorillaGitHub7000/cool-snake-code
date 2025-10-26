@@ -17,7 +17,7 @@ if(choice == 0):
 elif(choice == 1):
     computer = "-"
 
-else:
+elif(choice == 2):
     computer = "8<"
 
     print(computer)
