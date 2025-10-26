@@ -24,3 +24,21 @@ else:
 
     if(opponent == computer):
         print("It's a draw!")
+
+    elif(opponent == '0' and computer == '>8'):
+        print("Congratulations! You win!")
+
+    elif(opponent == '0' and computer == '_'):
+        print("Haha! Computer wins! You lose!")
+
+    elif(opponent == '_' and computer == '0'):
+        print("Congrats! You win!")
+
+    elif(opponent == '_' and computer == '>8'):
+        print("LOL! Computer wins, you lose!")
+
+    elif(opponent == '>8' and computer == '_'):
+        print("Wowie Zowie! You win!")
+
+    elif(opponent == '>8' and computer == '0'):
+        print("Better luck next time! Computer wins!")
