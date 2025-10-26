@@ -2,7 +2,7 @@
 # Random numbers are required because of the types of inputs and scenarios in this game
 from random import randint
 # This input asks the player to choose one of the three choices using symbols 0, _, and >8
-opponent = input("rock (0), paper (-), or scissors (>8)?")
+opponent = input("rock (0), paper (-), or scissors (8<)?")
 # There's an added end because this tells Python to end this line with a space instead of a new line.
 print(opponent, "vs", end=' ')
 # The computer opponent generates a random number from 0 to 2 as a representation of RPS
@@ -18,14 +18,14 @@ elif(choice == 1):
     computer = "-"
 
 else:
-    computer = ">8"
+    computer = "8<"
 
     print(computer)
 
     if(opponent == computer):
         print("It's a draw!")
 
-    elif(opponent == '0' and computer == '>8'):
+    elif(opponent == '0' and computer == '8<'):
         print("Congratulations! You win!")
 
     elif(opponent == '0' and computer == '-'):
@@ -34,11 +34,11 @@ else:
     elif(opponent == '-' and computer == '0'):
         print("Congrats! You win!")
 
-    elif(opponent == '-' and computer == '>8'):
+    elif(opponent == '-' and computer == '8<'):
         print("LOL! Computer wins, you lose!")
 
-    elif(opponent == '>8' and computer == '-'):
+    elif(opponent == '8<' and computer == '-'):
         print("Wowie Zowie! You win!")
 
-    elif(opponent == '>8' and computer == '0'):
+    elif(opponent == '8<' and computer == '0'):
         print("Better luck next time! Computer wins!")
