@@ -9,7 +9,7 @@ print(opponent, "vs", end=" ")
 # The computer opponent generates a random number from 0 to 2 as a representation of RPS
 # 0 = rock, 1 = paper, 2 = scissors
 choice = randint(0,2)
-print(choice)
+# print(choice)
 # The possible scenarios of computer choosing a random number
 
 if(choice == 0):
@@ -23,7 +23,8 @@ elif(choice == 1):
 else:
     computer = "s"
     print("s")
-
+# These are all of the possible scenarios of winning, losing, or tying
+# For whatever reason that I haven't figured out, the computer only prints the message when it chooses scissors
     if(opponent == computer):
         print("It's a draw!")
 
