@@ -9,20 +9,20 @@ print(opponent, "vs", end=" ")
 # The computer opponent generates a random number from 0 to 2 as a representation of RPS
 # 0 = rock, 1 = paper, 2 = scissors
 choice = randint(0,2)
-# print(choice)
+print(choice)
 # The possible scenarios of computer choosing a random number
 
 if(choice == 0):
     computer = "r"
-    print(computer)
+    print("r")
 
 elif(choice == 1):
     computer = "p"
-    print(computer)
+    print("p")
 
 else:
     computer = "s"
-    print(computer)
+    print("s")
 
     if(opponent == computer):
         print("It's a draw!")
