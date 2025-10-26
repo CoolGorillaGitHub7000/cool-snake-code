@@ -25,20 +25,20 @@ else:
     if(opponent == computer):
         print("It's a draw!")
 
-    elif(opponent == '0' and computer == '8<'):
+    elif(opponent == "0" and computer == "8<"):
         print("Congratulations! You win!")
 
-    elif(opponent == '0' and computer == '-'):
+    elif(opponent == "0" and computer == "-"):
         print("Haha! Computer wins! You lose!")
 
-    elif(opponent == '-' and computer == '0'):
+    elif(opponent == "-" and computer == "0"):
         print("Congrats! You win!")
 
-    elif(opponent == '-' and computer == '8<'):
+    elif(opponent == "-" and computer == "8<"):
         print("LOL! Computer wins, you lose!")
 
-    elif(opponent == '8<' and computer == '-'):
+    elif(opponent == "8<" and computer == "-"):
         print("Wowie Zowie! You win!")
 
-    elif(opponent == '8<' and computer == '0'):
+    elif(opponent == "8<" and computer == "0"):
         print("Better luck next time! Computer wins!")
