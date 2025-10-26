@@ -19,3 +19,8 @@ elif(choice == 1):
 
 else:
     computer = ">8"
+
+    print(computer)
+
+    if(opponent == computer):
+        print("It's a draw!")
