@@ -32,10 +32,10 @@ elif(choice == 2):
     elif(opponent == "r" and computer == "p"):
         print("Haha! Computer wins! You lose!")
 
-    elif(opponent == "p" and computer == "0"):
+    elif(opponent == "p" and computer == "r"):
         print("Congrats! You win!")
 
-    elif(opponent == "-" and computer == "s"):
+    elif(opponent == "p" and computer == "s"):
         print("LOL! Computer wins, you lose!")
 
     elif(opponent == "s" and computer == "p"):
