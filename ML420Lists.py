@@ -10,10 +10,14 @@ for hockeyplayer in hockeyplayers:
 print(hockeyplayers[-3])
 
 # Now what happens if I choose number 3 or more, or a negative number below -3?
-print(hockeyplayers[-5])
-# The code gives an error that the input is out of range
+# print(hockeyplayers[-5])
+# The code gives an error that the input is out of range and it stops the code there
 # What about a negative? Same thing.
 
-# Let's replace an item on the list shall we?
-hockeyplayers[2] = "Bryan Rust"
+# Let's replace an item on the list shall we? (Sorry Malkin)
+hockeyplayers[1] = "Bryan Rust"
+print(hockeyplayers)
+
+# Let's replace Kris Letang in exchange for 2 other hockey players I like.
+hockeyplayers[2] = "Marc-Andre Fleury", "Chris Kunitz"
 print(hockeyplayers)
