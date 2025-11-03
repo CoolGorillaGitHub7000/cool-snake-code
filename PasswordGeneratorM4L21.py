@@ -1,5 +1,6 @@
 import random
-length = 9
-chars = "abcdefghijklmnopqrstuvwxyz"
-password = random.choice(chars)
+
+characters = "abcdefghijklmnopqrstuvwxyz"
+
+password = random.choice(characters)
 print(password)
