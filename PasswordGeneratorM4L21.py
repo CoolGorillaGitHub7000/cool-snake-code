@@ -1,6 +1,8 @@
 import random
 
-characters = "abcdefghijklmnopqrstuvwxyz"
+characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789"
 
-password = random.choice(characters)
-print(password)
+password = ""
+password += random.choice(characters)
+for chars in range(8):
+    print(password)
